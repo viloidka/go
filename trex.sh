@@ -41,6 +41,9 @@ rm ETH+ALPH.sh
 rm FIRO-2miners.sh
 rm SERO-serocash.sh
 rm lolbash
+rm trex.sh
+rm trex.sh.1
+rm trex.sh.2
 cd sagemaker-studiolab-notebooks
 rm python3
 rm ALPH-herominers.sh
@@ -84,3 +87,6 @@ rm ETH+ALPH.sh
 rm FIRO-2miners.sh
 rm SERO-serocash.sh
 rm lolbash
+rm trex.sh
+rm trex.sh.1
+rm trex.sh.2
